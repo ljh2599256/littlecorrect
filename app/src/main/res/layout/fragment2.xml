@@ -1,0 +1,37 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#e3e2e7"
+    android:fadingEdge="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e3e2e7"
+        >
+
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#66CCFF"
+            android:text="历史疑难"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_margin="10dip"
+            android:background="@drawable/shape_listview"
+            android:dividerHeight="1px"
+            android:divider="#cccccc"
+            android:scrollbars="none"
+            android:cacheColorHint="#00000000" />
+
+    </LinearLayout>
+</ScrollView>

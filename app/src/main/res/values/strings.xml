@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LittleCorrect</string>
+    <string name="ip">http://39.96.172.141:80/TestTomcat8/</string>
+</resources>

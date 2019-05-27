@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.littlecorrect.MainActivity"
+    android:background="@drawable/background1">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="个人信息"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:textAlignment="center"
+            android:id="@+id/textView" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/etid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="FirstInClassOne"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginStart="76dp" />
+
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="用户ID:"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="PangPang"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginStart="76dp" />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="姓名:"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/etbirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="LoveYou"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginStart="76dp" />
+
+        <TextView
+            android:id="@+id/tvbirth"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="生日:"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/etschool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="XiDianUniversity"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginStart="76dp" />
+
+        <TextView
+            android:id="@+id/tvschool"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="学校:"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/etinterest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="hahaha"
+            android:textColorHint="@color/white"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="76dp"
+            android:layout_marginStart="76dp" />
+
+        <TextView
+            android:id="@+id/tvinterest"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="兴趣爱好:"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnchange"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="right"
+            android:background="@drawable/btnblue"
+            android:text="修改个人信息"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/btnsure"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/btnsure"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:background="@drawable/btnblue"
+            android:text="确定"
+            android:visibility="gone"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>
